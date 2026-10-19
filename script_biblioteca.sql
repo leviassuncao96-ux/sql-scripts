@@ -1,5 +1,3 @@
--- EXERCÍCIO 01/10
-
 CREATE DATABASE db_biblio;
 USE db_biblio;
 
@@ -62,9 +60,6 @@ FROM tb_emprestimo INNER JOIN tb_aluno ON tb_emprestimo.aluno_fk = tb_aluno.CPF_
 SELECT tb_aluno.nome, tb_livro.titulo, tb_emprestimo.dataemprestimo, tb_emprestimo.dataprevistadevol, tb_emprestimo.dataefetivadevol
 FROM tb_aluno LEFT JOIN tb_emprestimo ON tb_aluno.CPF_pk = tb_emprestimo.aluno_fk LEFT JOIN tb_livro ON tb_emprestimo.livro_fk = tb_livro.ISBN_pk;
 
--- ALTER TABLE tb_emprestimo ADD COLUMN id_emprestimo INT PRIMARY KEY AUTO_INCREMENT;
-
-SHOW TABLES;
 SELECT*FROM tb_aluno;
 SELECT*FROM tb_emprestimo;
 SELECT*FROM tb_autor;
