@@ -1,5 +1,5 @@
 # sql-scripts
-This repository contains SQL scripts developed during my Systems Analysis studies. 
+This repository contains SQL scripts developed during my graduation studies on Systems Analysis. 
 
 Topics covered:
 - Database creation and structure;
@@ -9,6 +9,7 @@ Topics covered:
 
 Tools used:
 - MySQL;
-- MySQL Workbench
+- MySQL Workbench;
+- SQLite.
 
 As this repository is part of my learning journey in technology, its goal is to practice SQL, reinforce my database knowledge, and document my learning progress.
